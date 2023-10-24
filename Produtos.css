@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.navbar{
+    border-bottom: 2px solid black;
+}
+body{
+    background-color: #808080;
+    background-image: url('266.1-Software-de-qualificacao-de-leads-Qualificacao-de-leads-com-pre-venda.jpg');
+    background-size: 130%;
+    
+}
+
+.divum h3{
+color: white;
+font-size: 1.2em;
+font-family: open;
+background-color: rgb(44, 44, 158);
+border-radius: 5px;
+width: 65%;
+margin-left: 15%;
+text-align: center;
+padding: 5px;
+letter-spacing: 1px;
+}
+h1{
+    text-shadow: 2px 2px 4px black;
+    font-family: fantasy;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 30%;
+}
+.containerPrincipal{
+border-radius: 5px;
+margin-left: 35%;
+padding: 50px;
+height: 400px;
+border: 2px solid black;
+width: max-content;
+flex-direction: column;
+background-color: white;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.containerPrincipal h3{
+    
+align-items: flex-start;
+margin-top: -30px;
+background-color: rgb(240, 240, 240);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.containerPrincipal h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    background-color: rgb(240, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.containerPrincipal p{
+    margin-left: 20px;
+    margin-top: 30%;
+}
+
+button{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: initial;
+    background-color: #2059f8;
+    border: 2px solid ;
+    padding: 10px;
+    margin: 5px;
+    width: 98%;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+input{
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: 98%;
+}
+
+
+
+video{
+    position: fixed;
+            top: 0;
+            right: 0; /* Altere para a posição desejada (top, left, right, bottom) */
+            margin-top: 13%;
+            margin-right: 35px;
+            width: 320px; /* Defina a largura desejada para o vídeo */
+            height: 240px; /* Defina a altura desejada para o vídeo */
+            z-index: 9999; /* Certifique-se de que a propaganda fique na frente de outros elementos */
+        }
+.ProdRegistr{
+    background-color: white;
+    width: 25%;
+    padding: 1%;
+    margin-top: -350px;
+    margin-left: 10px;
+    border: 1px solid green;
+    
+}
+.li{
+    color: Black;
+    margin-left: 20px;
+   font-size: 110%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media  (max-width: 1920px){
+    video{
+        position: fixed;
+                
+                right: 0; /* Altere para a posição desejada (top, left, right, bottom) */
+                margin-top: 14%;
+                margin-right: 200px;
+                width: 320px; /* Defina a largura desejada para o vídeo */
+                height: 240px; /* Defina a altura desejada para o vídeo */
+                z-index: 9999; /* Certifique-se de que a propaganda fique na frente de outros elementos */
+    }     
+}
+@media (min-width:1144px) and (max-width: 1355px){
+    video{
+        position: fixed;
+                
+                right: 0; /* Altere para a posição desejada (top, left, right, bottom) */
+                margin-top: 19%;
+                margin-right: 35px;
+                width: 320px; /* Defina a largura desejada para o vídeo */
+                height: 240px; /* Defina a altura desejada para o vídeo */
+                z-index: 9999; /* Certifique-se de que a propaganda fique na frente de outros elementos */
+    }     
+}
+@media (max-width: 1143px){
+    video{
+        position: fixed;
+                
+                right: 0; /* Altere para a posição desejada (top, left, right, bottom) */
+                margin-top: 29%;
+                margin-right: 35px;
+                width: 160px; /* Defina a largura desejada para o vídeo */
+                height: 120px; /* Defina a altura desejada para o vídeo */
+                z-index: 9999; /* Certifique-se de que a propaganda fique na frente de outros elementos */
+    }     
+}
+@media (max-width: 912px) {
+    video {
+        display: none; /* Oculta o vídeo quando a largura da tela for menor ou igual a 912px */
+    }
+}
+
+.direitos{
+
+    margin-top: 400px;
+    background-color: white;
+    height: 200px;
+}
+.direitos h1{
+
+    margin-left: 33%;
+}
+.direitos p{
+    text-align: center;
+    margin-right: 7%;
+}

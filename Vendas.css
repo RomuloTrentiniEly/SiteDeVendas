@@ -1,0 +1,473 @@
+body{
+    background-color: #808080;
+    background-image: url('266.1-Software-de-qualificacao-de-leads-Qualificacao-de-leads-com-pre-venda.jpg');
+    background-size: 130%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+.navbar{
+    border:  2px solid black;
+}
+.Titulo{
+    text-align: center;
+    font-family:Helvetica ;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: -150px;
+    margin-bottom: 50px;
+    color: rgb(0, 253, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+}
+    
+
+
+.Cadastrar{
+    text-align: center;
+    margin-left: -6%;
+    color: white;
+}
+
+.Cadastro{
+    background-color: rgb(66, 66, 66);
+    border:  2px solid white;
+    margin-inline-start: 17%;
+    margin-inline-end: 17%;
+    
+}
+.Cadastro h3{   
+    
+    text-align: center;
+    width: max-content;
+    width: 1em;
+}
+.Produto{
+    display: flex;
+    font-size: 30px;
+    color: white;
+   
+    width: 20px;
+    margin-left: 7%;
+    margin-top: 2%;
+    width: max-content;
+}
+#NomeDoProduto{
+    display: flex;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    width: 200px; 
+    padding: 7px;
+    margin-left: 4%;
+    width: max-content;
+
+}
+.Valor{
+    display: flex;
+    font-size: 30px;
+    color: white;   
+    
+    width: 200px; 
+    margin-left: 37%;
+    margin-top: -8.5%;
+    margin-bottom: 13px;
+    width: max-content;
+}
+
+
+#ValorDaVenda{
+    margin-left: 40%;
+    margin-top: -4%;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 7px;
+    width: max-content;
+}
+
+.data{
+    font-size: 30px;
+    color: white;
+    margin-left: 70%;
+    margin-top: -8%;
+    width: max-content;
+
+}
+#DataDaVenda{
+    margin-left: 72%;
+    margin-top: -8px;
+    padding: 5px;
+    width: max-content;
+}
+.Cadastro button{
+   position: flex;
+   margin: 15px;
+   margin-left: 25%;
+   width: 45%;
+   padding: 5px;
+   border-radius: 20px;
+    
+}
+.vendasTotais{
+    display: flex;
+    margin-bottom: 10px; /* Adiciona margem entre os elementos */
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    
+}
+.VendasHoje{
+    margin-right: 10px;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px; /* Adiciona margem entre as divs */
+    background-color: rgb(47, 0, 255);
+    text-align: center;
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    
+}
+.VendasHoje h3{
+    margin-top: 10px;
+    margin-inline-start: 17%;
+    margin-inline-end: 17%;
+    background-color: white;
+    padding: 9px;
+}
+
+.saida {
+    /* Estilo para os elementos ímpares */
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para os elementos pares com a classe "minha-classe" */
+  .saida:nth-child(even) {
+    background-color: green;
+  }
+
+  .VendasMês{
+    margin-right: 10px;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px; /* Adiciona margem entre as divs */
+    background-color: rgb(47, 0, 255);
+    text-align: center;
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    
+}
+.VendasMês h3{
+    margin-top: 10px;
+    margin-inline-start: 17%;
+    margin-inline-end: 17%;
+    background-color: white;
+    padding: 9px;
+    
+}
+
+.saida {
+    /* Estilo para os elementos ímpares */
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para os elementos pares com a classe "minha-classe" */
+  .saida:nth-child(even) {
+    background-color: green;
+    color: white;
+  }
+  #total{
+    background-color: yellow;
+    font-style: italic;
+    font-size: 20px;
+    margin-inline-start: 37%;
+    margin-inline-end: 37%;
+    text-align: left;
+    padding-left: 10px;
+  }
+  #totalhoje{
+   
+        background-color: yellow;
+        font-style: italic;
+        font-size: 20px;
+        margin-inline-start: 37%;
+        margin-inline-end: 37%;
+        text-align: left;
+        padding-left: 10px;
+      
+  }
+
+  .filtrar{
+    margin-top: 15px;
+    margin-bottom: 10px; /* Adiciona margem entre as divs */
+    background-color: rgb(47, 0, 255);
+    text-align: center;
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-inline-start: 17%;
+    margin-inline-end: 17%;
+    color: white;
+  }
+  .listaMês{
+    background-color: white;
+  }
+
+  @media  (max-width: 2560px){
+    .Cadastro{
+        background-color: rgb(66, 66, 66);
+        border:  2px solid white;
+        
+        width: 50%;
+        
+    }
+    .Produto{
+        display: flex;
+        font-size: 2em;
+        color: white;
+        margin-left: 7%;
+        margin-top: 2%;
+        width: max-content;
+    }
+    #NomeDoProduto{
+        display: flex;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        margin-left: 4%;
+    }
+    .Valor{
+        display: flex;
+        font-size:2em;
+        color: white;   
+        margin-left: 37%;
+        margin-top: -6.5%;
+    }
+    
+    
+    #ValorDaVenda{
+        margin-left: 40%;
+        margin-top: -4%;
+        text-align: center;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        width: max-content;
+    }
+    
+    .data{
+        font-size: 2em;
+        color: white;
+        margin-left: 70%;
+        margin-top: -6%;
+    
+    }
+    #DataDaVenda{
+        margin-left: 72%;
+        margin-top: -8px;
+        padding: 5px;
+    }
+    .Cadastro button{
+       position: flex;
+       margin-top: 5%;
+       margin-left: 25%;
+       width: 45%;
+       
+        
+    }
+}
+  
+
+  @media  (max-width: 1680px){
+    .Produto{
+        
+        font-size: 1.5ic;
+        color: white;
+        width: 15%;
+        margin-left: 7%;
+        margin-top: 2%;
+        margin-bottom: fixed;
+        
+    }
+    #NomeDoProduto{
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        width: 15%;
+        margin-left: 4%;
+        
+        
+    
+    }
+    .Valor{
+        font-size: 1.5ic;
+        color: white;   
+        width: 15%; 
+        margin-left: 37%;
+        margin-top: -8.8%;
+        width: max-content;
+    }
+    
+    
+    #ValorDaVenda{
+        width: 15%;
+        margin-left: 42%;
+        margin-top: -4%;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        
+       
+    }
+    
+    .data{
+        font-size: 1.5ic;
+        color: white;
+        margin-left: 75%;
+        margin-top: -8%;
+    }
+    #DataDaVenda{
+        margin-left: 75%;
+        margin-top: -4px;
+        padding: 5px;
+        
+    }
+  }
+
+  @media  (max-width: 1024px){
+    .Cadastro{
+        margin-left: 1%;
+        background-color: rgb(66, 66, 66);
+        border:  2px solid white;
+        margin-bottom: 10px;
+        
+    }
+    .Produto{
+        
+        font-size: 20px;
+        color: white;
+        width: 20px;
+        margin-left: 7%;
+        margin-top: 2%;
+        width: max-content;
+    }
+    #NomeDoProduto{
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        width: 120px;
+        margin-left: 4%;
+        
+        
+    
+    }
+    .Valor{
+        font-size: 20px;
+        color: white;   
+        margin-left: 30%;
+        margin-top: -13.4%;
+        margin-bottom: 13px;
+        
+    }
+    
+    
+    #ValorDaVenda{
+        width: 120px;
+        margin-left: 36%;
+        margin-top: -4%;
+        text-align: center;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        padding: 7px;
+       
+    }
+    
+    .data{
+        font-size: 20px;
+        color: white;
+        margin-left: 68%;
+        margin-top: -13.5%;
+    }
+    #DataDaVenda{
+        margin-left: 65%;
+        margin-top: -4%;
+        padding: 5px;
+        
+    }
+  }
+
+  @media  (max-width: 685px){
+    .Cadastro{
+        margin-left: 10%;
+        height: 330px;
+        background-color: rgb(66, 66, 66);
+        border:  2px solid white;
+        margin-bottom: 10px;
+
+        
+    }
+    .Produto{
+        
+        font-size: 20px;
+        color: white;
+        width: 20px;
+        margin-left: 7%;
+        margin-top: 2%;
+        width: max-content;
+    }
+    #NomeDoProduto{
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        width: 120px;
+        margin-left: 4%;
+        
+        
+    
+    }
+    .Valor{
+        font-size: 20px;
+        color: white;   
+        width: 200px; 
+        margin-left: 10px;
+        margin-top: 2%;
+        margin-bottom: 13px;
+        width: max-content;
+    }
+    
+    
+    #ValorDaVenda{
+        width: 120px;
+        margin-left: 20px;
+        margin-top: -4%;
+        text-align: center;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        padding: 7px;
+       
+    }
+    
+    .data{
+        font-size: 20px;
+        color: white;   
+        width: 200px; 
+        margin-left: 10px;
+        margin-top: 2%;
+        margin-bottom: 13px;
+        width: max-content;
+    }
+    #DataDaVenda{
+        margin-left: 10px;
+        margin-top: -4px;
+        padding: 5px;
+        
+    }
+    #registrar{
+        margin-left: 1%;
+        width: 25%;
+    }
+  }
